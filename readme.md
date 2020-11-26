@@ -48,10 +48,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -samen met je groepje opstellen-
 
-| Ashley Muts    | student 2          | student 3    | student 4        |
+| Ashley Muts    | Dionysha           | student 3    | student 4        |
 | ---            | ---                | ---          | ---              |
-|                | en dit             | en ik dit    | en dan ik dat    |
-|                | dit als er tijd is | nog een punt | dit wil ik zeker |
+|                | vraag over footer  |              |                  |
+|                |                    |              |                  |
 | ...            | ...                | ...          | ...              |
 
 ### Verslag van meeting
