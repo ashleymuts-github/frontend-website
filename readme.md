@@ -50,7 +50,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 | Ashley Muts    | Dionysha           | student 3    | student 4        |
 | ---            | ---                | ---          | ---              |
-|                | vraag over footer  |              |                  |
+| background 
+  donkerder      | vraag over footer  |              |                  |
 |                |                    |              |                  |
 | ...            | ...                | ...          | ...              |
 
