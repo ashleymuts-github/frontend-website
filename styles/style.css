@@ -1,0 +1,280 @@
+/* CSS Document */
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
+}
+
+body {
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+h1 {
+  font-family: 'Comfortaa';
+  font-weight: 300;
+  font-size: 1.6em;
+  line-height: 1.1em;
+  margin-bottom: 0.5em;
+  padding-top: 1.4em;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  font-family: 'Oswald';
+  font-weight: 200;
+  font-size: 1.9em;
+  line-height: 1.1em;
+  text-align: center;
+  letter-spacing: 0.2em;
+  color: white;
+
+}
+
+h3 {
+  font-family: 'Oswald';
+  font-weight: 200;
+  font-size: 2.2em;
+  line-height: 1.2em;
+  text-align: center;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+  padding-bottom: 1.2em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #4c4c4c;
+}
+
+h4 {
+  font-family: 'Oswald';
+  font-weight: 200;
+  font-size: 2.1em;
+  line-height: 1.2em;
+  text-align: center;
+  padding-left: 1em;
+  padding-top: 2em;
+  padding-right: 1em;
+  padding-bottom: 3em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #4c4c4c;
+}
+
+
+header {
+  width: 100%;
+  background: url('../images/background-header.jpg');
+  height: 22.5em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  padding-top: 1.3em;
+}
+
+.logo {
+  position: relative;
+  width: 11.5em;
+  padding-left: 1em;
+
+}
+
+nav ul {
+  display: none;
+}
+
+.hamburger {
+  width: 2.75em;
+  height: 2.75em;
+  border-radius: 0.4em;
+  background: #f17900;
+  position: absolute;
+  top: 1.5em;
+  right: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0.3em;
+}
+
+.hamburger>.line {
+  width: 1.25em;
+  height: 0.125em;
+  background: #fff;
+  padding-top: 0.125em;
+  margin-bottom: 0.25em;
+}
+
+.info-text {
+  font-family: 'Comfortaa';
+  font-weight: 300;
+  font-size: 1.1em;
+  line-height: 1.5em;
+  margin-bottom: 3em;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: center;
+  color: #676767;
+}
+
+.grey-section {
+  background-color: #F3F3F3;
+  padding-bottom: 5em;
+  display: flex;
+  flex-direction: column;
+}
+
+.grey-section>article>p {
+  color: white;
+  font-family: 'Oswald';
+  font-weight: 200;
+  font-size: 1.4em;
+  letter-spacing: 0.1em;
+  line-height: 1.1em;
+  text-transform: uppercase;
+}
+
+time {
+  font-family: 'Comfortaa';
+  font-weight: 300;
+  font-size: 1.2em;
+  line-height: 1em;
+  color: white;
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+
+.post {
+  width: 23em;
+  margin-top: 2em;
+  margin: 0 1em 1.2em 1em;
+  padding-left: 1.3em;
+}
+
+.p-1 {
+  background: linear-gradient(rgba(0, 0, 0, -0.5), rgba(0, 0, 0, 0.5)), url(../images/image1.jpg);
+  background-size: cover;
+  height: 17em;
+  padding-top: 11em;
+}
+
+.p-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/image2.jpeg);
+  background-size: cover;
+  height: 10em;
+  padding-top: 2.5em;
+}
+
+.p-3 {
+  background: linear-gradient(rgba(0, 0, 0, -0.5), rgba(0, 0, 0, 0.5)), url(../images/image3.jpg);
+  background-size: cover;
+  height: 13em;
+  padding-top: 7em;
+}
+
+.p-4 {
+  background: linear-gradient(rgba(0, 0, 0, -0.5), rgba(0, 0, 0, 1.5)), url(../images/image4.jpg);
+  background-size: cover;
+  height: 17em;
+  padding-top: 12.5em;
+}
+
+.reclame-images {
+  width: 92%;
+  height: 13em;
+  margin-top: 4em;
+  margin-left: 1em;
+  padding-bottom: 17.5em;
+  list-style-type: none;
+}
+
+.axe-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/section-image3.png);
+  width: 92%;
+  height: 20em;
+  background-size: cover;
+  padding-top: 5.5em;
+  padding-left: 3.8em;
+  margin-left: 1em;
+  margin-top: 4em;
+}
+
+.axe-image>a {
+  font-family: 'Comfortaa';
+  font-weight: 300;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  letter-spacing: 0.1em;
+  padding-left: 2.2em;
+  text-decoration: none;
+}
+
+.minion-image {
+  width: 92%;
+  height: 2em;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+.films-list {
+  font-family: 'Comfortaa';
+  font-weight: 300;
+  color: white;
+  font-size: 0.8em;
+  line-height: 2em;
+  background-color: #b7aaa3;
+  width: 92%;
+  margin-left: 1em;
+  margin-top: 5em;
+  list-style-type: none;
+  padding: 2em 0 2em 1.5em;
+}
+
+.title-list {
+  font-family: 'Oswald';
+  font-weight: 200;
+  font-size: 1.2em;
+  letter-spacing: 0.1em;
+  line-height: 1.1em;
+  text-transform: uppercase;
+  padding-bottom: 1em;
+}
+
+/* .font-comfort {
+  font-family: 'Comfortaa';
+} */
+
+
+.section-redimage {
+
+}
+
+@media (min-width: 1000px) {
+  .grey-section {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .grey-section>h3 {
+    width: 100%;
+  }
+
+  .grey-section>.p-1 {
+    width: 50%;
+  }
+
+  .grey-section>.p-2 {
+    width: 50%;
+  }
+
+}
