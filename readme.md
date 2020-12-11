@@ -30,7 +30,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+Toen ik na het voortgang 1 weer verder ging coderen opende ik de website en had ik veel whitespace aan de zijkant. Ik heb alles afgesloten en opnieuw opgestart maar het bleef hetzelfde ik heb alles opnieuw aangepast zodat het goed stond.
 
 
 
@@ -38,11 +38,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Ik vond het een beetje lastig om van start te gaan met frontend. Na een weekje ging het veel makkelijker en ging ik goed op weg.
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent met korte uitleg-
+
 
 ### Agenda voor meeting
 
@@ -57,7 +57,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+Ik heb filter: brightness gebrobeerd. Hierdoor werd de hele afbeelding donkerder waaronder de tekst.
 
 
 
