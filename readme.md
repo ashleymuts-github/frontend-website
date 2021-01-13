@@ -6,15 +6,38 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. w3schools
-2. stackoverflow
-3. -
+
+https://www.w3schools.com/css/css_form.asp
+
+https://www.w3schools.com/html/html_entities.asp
+
+https://www.w3schools.com/cssref/sel_after.asp
+
+https://www.htmlsymbols.xyz/unicode/U+2794
+
+https://stackoverflow.com/questions/24365580/before-after-not-working-on-the-input-type-submit
+
+https://www.w3schools.com/cssref/css_entities.asp
+
+https://www.w3schools.com/html/html_iframe.asp
+
+https://www.maps.ie/create-google-map/
+
+https://graphemica.com/%E2%98%B0
+
+https://stackoverflow.com/questions/23750346/how-to-resize-unicode-characters-via-css
+
+https://graphemica.com/%E2%9D%8C
+
+En nog veel meer.....
 
 
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+Wat ik eigenlijk al een beetje in week 6 heb verteld. Ik vond het lastig om classes weg te werken omdat ik in de eerste week zo mijn html had opgebouwd. Het omschakelen heeft mij een paar dagen gekost. Dit omdat ik vaak in de war raakte of dat bepaalde elementen opnieuw gestyled moesten worden.
+
+In het eerste jaar vond ik het lastiger om informatie op te zoeken. Bij dit project merkte ik dat het wat makkelijker ging en snel kon opzoeken wat ik nodig had. Dit ook omdat ik de code wat meer begrijp. 
 
 **Screenshot(s):**
 
@@ -24,7 +47,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+Ik ben niet veel verder met mijn website gekomen. Dit kwam door meerdere deadlines voor andere vakken dit blok. Ik vind het lastig dat we nu een nieuwe manier leren om html en css op te bouwen. Het heeft mij een half jaar gekost om uberhaupt html en css goed te leren. Dit omdat ik nog nooit eerder heb gecodeerd. In de vakantie heb ik een planning gemaakt om verder aan mijn website te gaan.
 
 
 
