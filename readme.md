@@ -44,6 +44,10 @@ In het eerste jaar vond ik het lastiger om informatie op te zoeken. Bij dit proj
 -screenshot(s) van je eindresultaat-
 
 
+## Verslag Screenreader (week 7)
+
+Na aanleiding van de opdracht om met een screenreader je code door te gaan heb ik de screenreader van mijn macbook aangezet. De screenreader werkt echter alleen op safari en niet op andere browsers. De screenreader gaat makkelijk door de pagina heen en leest alles op. Mijn macbook staat in het Nederlands dus krijg ik ook een Nederlandse screenreader. Hierdoor kan mijn screenreader Engelse (andere taal) woordjes niet op de juiste manier oplezen.
+
 
 ## Voortgang 3 (week 6)
 
