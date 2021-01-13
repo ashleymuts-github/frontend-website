@@ -51,7 +51,7 @@ Na aanleiding van de opdracht om met een screenreader je code door te gaan heb i
 
 ## Voortgang 3 (week 6)
 
-Ik ben niet veel verder met mijn website gekomen. Dit kwam door meerdere deadlines voor andere vakken dit blok. Ik vind het lastig dat we nu een nieuwe manier leren om html en css op te bouwen. Het heeft mij een half jaar gekost om uberhaupt html en css goed te leren. Dit omdat ik nog nooit eerder heb gecodeerd. In de vakantie heb ik een planning gemaakt om verder aan mijn website te gaan.
+Ik ben niet veel verder met mijn website gekomen. Dit kwam door meerdere deadlines voor andere vakken dit blok. Ik vind het lastig dat we nu een nieuwe manier leren om html en css op te bouwen. Het heeft mij een half jaar gekost om uberhaupt html en css goed te leren. Dit omdat ik nog nooit eerder had gecodeerd. In de vakantie heb ik een planning gemaakt om verder aan mijn website te gaan.
 
 
 
