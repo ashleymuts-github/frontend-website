@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="nl">
 
 <head>
@@ -11,47 +11,44 @@
 	<link href="styles/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="index-file">
 	<header>
 		<nav>
-			<a href="https://www.jeanmineurmediavision.nl/">
-			<img src="images/logo-jeanmineurmediavision.png" class="logo" alt="Logo Jeanmineur">
-			</a>
-			<div class="hamburger">
-				<div class="line"></div>
-				<div class="line"></div>
-				<div class="line"></div>
+			<div>
+				<a href="https://www.jeanmineurmediavision.nl/">
+				<img src="images/logo-jeanmineurmediavision.png" alt="Logo Jeanmineur">
+				</a>
+				<button type="button" name="button" class="hamburger"></button>
 			</div>
 			<ul>
 				<li>
 					<a href="https://www.jeanmineurmediavision.nl/">Home</a>
 				</li>
 				<li>
-					About
+					<p>About</p>
+					<ul>
+						<li>
+							<a href="https://www.jeanmineurmediavision.nl/about/waarom-bioscoop/">Waarom Bioscoop?</a>
+						</li>
+						<li>
+							<a href="https://www.jeanmineurmediavision.nl/about/team/">Team</a>
+						</li>
+					</ul>
 				</li>
-				<ul class="dropdown">
-					<li>
-						<a href="https://www.jeanmineurmediavision.nl/about/waarom-bioscoop/">Waarom Bioscoop?</a>
-					</li>
-					<li>
-						<a href="https://www.jeanmineurmediavision.nl/about/team/">Team</a>
-					</li>
-				</ul>
 				<li>
-					Planning & Buying
+					<p>Planning & Buying</p>
+					<ul>
+						<li>
+							<a href="https://www.jeanmineurmediavision.nl/producten/">Producten</a>
+						</li>
+						<li>
+							<a href="https://www.jeanmineurmediavision.nl/films/">Films</a>
+						</li>
+						<li>
+							<a href="https://www.jeanmineurmediavision.nl/insights/">Insights</a>
+						</li>
+					</ul>
 				</li>
-			</ul>
-				<ul class="dropdown2">
-					<li>
-						<a href="https://www.jeanmineurmediavision.nl/producten/">Producten</a>
-					</li>
-					<li>
-						<a href="https://www.jeanmineurmediavision.nl/films/">Films</a>
-					</li>
-					<li>
-						<a href="https://www.jeanmineurmediavision.nl/insights/">Insights</a>
-					</li>
-				</ul>
 				<li>
 					<a href="https://www.jeanmineurmediavision.nl/cases/">Cases</a>
 				</li>
@@ -63,14 +60,15 @@
 				</li>
 			</ul>
 		</nav>
-		<h1>enter the world of</h1>
-		<H2>CINEMA ADVERTISING</h2>
+		<h1><span>enter the world of</span>
+		CINEMA ADVERTISING</h1>
 	</header>
 
 	<main>
+		<!-- first section main -->
 		<section>
-			<h3>Jean Mineur Mediavision</h3>
-			<p class="info-text">Jean Mineur Mediavision is de grootste bioscoopreclame exploitant van
+			<h2>Jean Mineur Mediavision</h2>
+			<p>Jean Mineur Mediavision is de grootste bioscoopreclame exploitant van
 			 Nederland, met een breed scala aan bioscopen. Van multiplexen tot aan
 			 Art Houses, op toplocaties door heel Nederland. In onze portefeuille
 			 zitten niet alleen hoogwaardige circuits zoals alle Pathé bioscopen,
@@ -78,45 +76,43 @@
 			 mooie zelfstandige bioscopen te vertegenwoordigen. Voor welke vorm van
 			 bioscoopreclame dan ook, je bent nu op de juiste plek.</p>
 		</section>
-		<!-- de article elementen krijgen in css een background image -->
-		<section class="grey-section">
-			<h4>Het laatste nieuws uit bioscoopland</h4>
-			<article class="post p-1">
+		<!-- second section main (grey part) -->
+		<section>
+			<h2>Het laatste nieuws uit bioscoopland</h2>
+			<div>
 				<time datetime="2020-11-18">18 november 2020</time>
 				<p>Bioscopen vanaf donderdag 19 a.s. weer open!</p>
-			</article>
-			<article class="post p-2">
+			</div>
+			<div>
 				<time datetime="2020-11-04">4 november 2020</time>
 				<p>Tijdelijke sluiting bioscopen en filmtheaters tot en met woensdag 18 november a.s.</p>
-			</article>
-			<article class="post p-3">
+			</div>
+			<div>
 				<time datetime="2020-10-26">26 oktober 2020</time>
 				<p>Duurste Nederlandse film ooit met kerst in de bioscoop</p>
-			</article>
-			<article class="post p-4">
+			</div>
+			<div>
 				<time datetime="2020-09-17">17 september 2020</time>
 				<p>Cinema - go big again</p>
-			</article>
-		</section>
-		<section>
-			<article class="reclame-images">
-				<img src="images/section-image1.jpg" alt="">
-			</article>
-			<article class="reclame-images">
-				<img src="images/section-image2.jpg" alt="">
-			</article>
-			<div class="axe-image">
-				<img src="images/axe-overlay.png" alt="">
-				<a href="https://www.jeanmineurmediavision.nl/portfolio/axe-you-gold/">Bekijk de case</a>
 			</div>
 		</section>
-		<section>
-			<article class="minion-image">
-				<img src="../images/minion-image.png" alt="">
-			</article>
-			<ul class="films-list">
+		<!-- first div main (3 images below each other) -->
+		<div>
+				<img src="images/section-image1.jpg" alt="Reclame afbeelding">
+				<img src="images/section-image2.jpg" alt="Reclame afbeelding">
+			<div>
+				<img src="images/axe-overlay.png" alt="Reclame afbeelding + link naar axe">
+				<a href="https://www.jeanmineurmediavision.nl/portfolio/axe-you-gold/">Bekijk de case</a>
+			</div>
+		</div>
+		<!-- second div main (3 elements below each other list of films + video) -->
+		<div>
+			<div>
+				<img src="images/minion-image.png" alt="minion achtergrondimage">
+			</div>
+			<ul>
 				<li>
-					<p class="title-list">Top 10 films van het moment</p>
+					<p>Top 10 films van het moment</p>
 				</li>
 				<li>
 					<p>1. De Club van Sinterklaas</p>
@@ -149,90 +145,97 @@
 					<p>10. Horizon Line</p>
 				</li>
 			</ul>
-
-
-				<li>
-					<!-- aan Nino vragen hoe dit moet (filmpje) -->
-				</li>
-			</ul>
-		</section class="section-redimage">
-		<!-- <section> Krijgt een background image in css -->
-			<h5>Bioscoopreclame emotionele merk belevenis</h5>
+			<div>
+				<a role="button" href="https://www.youtube-nocookie.com/embed/aykG4aRPpWE?iv_load_policy=3&hd=1&autohide=1&autoplay=1&rel=0#038;modestbranding=1&rel=0&autohide=1&playsinline=1&autoplay=0"></a>
+				<p>Cinema is back!</p>
+			</div>
+		</div>
+		<!-- third section main (red image) -->
+		<section>
+			<h2>Bioscoopreclame emotionele merk belevenis</h2>
+			<!-- div only for styling purposes -->
+			<div></div>
 		</section>
 	</main>
 
 	<footer>
+		<!-- first section footer (input mail) -->
 		<section>
-			<h5>Blijf op de hoogte van onze nieuwsbrief</h5>
-			<form class="">
-				<input type="email">
-				<input type="submit" name="" value="">
+			<h2>Blijf op de hoogte van onze nieuwsbrief</h2>
+			<form>
+				<input type="email" placeholder="E-mailadres">
+				<button type="button"></button>
 			</form>
 		</section>
+			<!-- second section footer (clickable info) -->
 		<section>
-			<h5>Meer info</h5>
+			<h3>Meer info</h3>
 			<ul>
 				<li>
-					<a href="#">Home</a>
+					<a href="https://www.jeanmineurmediavision.nl/">Home</a>
 				</li>
 				<li>
-					<a href="#">About</a>
+					<a href="https://www.jeanmineurmediavision.nl/about/waarom-bioscoop/">About</a>
 				</li>
 				<li>
-					<a href="#">Planning & Buying</a>
+					<a href="https://www.jeanmineurmediavision.nl/producten/">Planning & Buying</a>
 				</li>
 				<li>
-					<a href="#">Cases</a>
+					<a href="https://www.jeanmineurmediavision.nl/cases/">Cases</a>
 				</li>
 				<li>
-					<a href="#">Contact</a>
+					<a href="https://www.jeanmineurmediavision.nl/contact/">Contact</a>
 				</li>
 			</ul>
 		</section>
+		<!-- third section footer (clickable info) -->
 		<section>
-			<h4>Producten</h4>
-			<a href="#">Producten</a>
+			<h3>Producten</h3>
+			<a href="https://www.jeanmineurmediavision.nl/producten/">Producten</a>
 		</section>
+		<!-- fourth section footer (clickable info) -->
 		<section>
-			<h4>Contact</h4>
+			<h3>Contact</h3>
+				<ul>
+					<li>
+						<p>Meer weten? Bel of email ons.</p>
+					</li>
+					<li>
+						<a href="mailto:info@jeanmineurmediavision.nl">info@jeanmineurmediavision.nl</a>
+					</li>
+					<li>
+						<a href="tel:+310205022388">+31 (0)20 502 23 88</a>
+					</li>
+				</ul>
+		</section>
+		<!-- fith section footer (clickable info) -->
+		<section>
+			<h3>Adres</h3>
 			<ul>
 				<li>
-					Meer weten? Bel of email ons.
+					<p>Jean Mineur Mediavision</p>
 				</li>
 				<li>
-					<a href="mailto:info@jeanmineurmediavision.nl">info@jeanmineurmediavision.nl</a>
+					<p>Van Heenvlietlaan 200-B</p>
 				</li>
 				<li>
-					<a href="tel:+31 020 502 23 88">+31 (0)20 502 23 88</a>
+					<p>1083 CM Amsterdam</p>
 				</li>
 			</ul>
 		</section>
-		<section>
-			<h4>Adres</h4>
+		<!-- first div footer (copyright) -->
+		<div>
+			<img src="images/jeanmineur-pop.png" alt="Jeanmineur poppetje">
+			<p>© 2018 Jean Mineur Mediavision. Rechten voorbehouden.</p>
 			<ul>
 				<li>
-					Jean Mineur Mediavision
+					<a href="https://www.stichtingbio.nl/"><img src="images/bio-footer.png" alt="Reclame afbeelding + link naar website Stichtingbio"></a>
 				</li>
 				<li>
-					Van Heenvlietlaan 200-B
-				</li>
-				<li>
-					1083 CM Amsterdam
+					<a href="https://www.sawa.com/"><img src="images/sawa-footer.png" alt="Reclame afbeelding + link naar website Sawa"></a>
 				</li>
 			</ul>
-		</section>
-		<section>
-			<img src="" alt="">
-			<p>© 2018 Jean Mineur Mediavision. <span>Rechten voorbehouden.</span></p>
-			<ul>
-				<li>
-					<a href="#"> <img src="" alt=""> </a>
-				</li>
-				<li>
-					<a href="#"> <img src="" alt=""> </a>
-				</li>
-			</ul>
-		</section>
+		</div>
 	</footer>
 
 	<script src="scripts/script.js"></script>

@@ -1,53 +1,54 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="nl">
 
 <head>
 	<meta charset="UTF-8">
 	<meta name="author" content="jouw naam">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
 	<title>jeanmineurwebsite</title>
-
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Oswald:wght@200&display=swap" rel="stylesheet">
 	<link href="styles/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="contact-file">
 	<header>
 		<nav>
+			<div>
+				<a href="https://www.jeanmineurmediavision.nl/">
+				<img src="images/logo-jeanmineurmediavision.png" alt="Logo Jeanmineur">
+				</a>
+				<button type="button" name="button" class="hamburger"></button>
+			</div>
 			<ul>
-				<li>
-					<a href="https://www.jeanmineurmediavision.nl/">
-					<img src="" alt="Logo Jeanmineur">
-					</a>
-				</li>
 				<li>
 					<a href="https://www.jeanmineurmediavision.nl/">Home</a>
 				</li>
 				<li>
-					About
+					<p>About</p>
+					<ul>
+						<li>
+							<a href="https://www.jeanmineurmediavision.nl/about/waarom-bioscoop/">Waarom Bioscoop?</a>
+						</li>
+						<li>
+							<a href="https://www.jeanmineurmediavision.nl/about/team/">Team</a>
+						</li>
+					</ul>
 				</li>
-				<ul class="dropdown">
-					<li>
-						<a href="https://www.jeanmineurmediavision.nl/about/waarom-bioscoop/">Waarom Bioscoop?</a>
-					</li>
-					<li>
-						<a href="https://www.jeanmineurmediavision.nl/about/team/">Team</a>
-					</li>
-				</ul>
 				<li>
-					Planning & Buying
+					<p>Planning & Buying</p>
+					<ul>
+						<li>
+							<a href="https://www.jeanmineurmediavision.nl/producten/">Producten</a>
+						</li>
+						<li>
+							<a href="https://www.jeanmineurmediavision.nl/films/">Films</a>
+						</li>
+						<li>
+							<a href="https://www.jeanmineurmediavision.nl/insights/">Insights</a>
+						</li>
+					</ul>
 				</li>
-				<ul class="dropdown2">
-					<li>
-						<a href="https://www.jeanmineurmediavision.nl/producten/">Producten</a>
-					</li>
-					<li>
-						<a href="https://www.jeanmineurmediavision.nl/films/">Films</a>
-					</li>
-					<li>
-						<a href="https://www.jeanmineurmediavision.nl/insights/">Insights</a>
-					</li>
-				</ul>
 				<li>
 					<a href="https://www.jeanmineurmediavision.nl/cases/">Cases</a>
 				</li>
@@ -59,41 +60,43 @@
 				</li>
 			</ul>
 		</nav>
+		<h1>Contact</h1>
 	</header>
 
   <main>
-    <h1>CONTACT</h1>
-    <section>
-      <!-- Hier komt de google maps kaart (later even naar kijken)-->
+		<div>
+			<iframe src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=van%20Heenvlietlaan%20200-b%20+(Jean%20Mineur)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+		</div>
+		<div>
       <ul>
         <li>
-          <h1>Jean Mineur Mediavision</h1>
+          <p>Jean Mineur Mediavision</p>
         </li>
         <li>
-          Van Heenvlietlaan 200-B
+          <p>Van Heenvlietlaan 200-B</p>
         </li>
         <li>
-          1083 CM Amsterdam
+          <p>1083 CM Amsterdam</p>
         </li>
         <li>
-          <a href="tel:+31 020 502 23 88">Tel: <span>+31 (0)20 502 23 88</span></a>
+          <a href="tel:+310205022388"><span>Tel:</span> +31 (0)20 502 23 88</a>
         </li>
         <li>
-          <span><a href="mailto:info@jeanmineurmediavision.nl">info@jeanmineurmediavision.nl</a></span>
+          <a href="mailto:info@jeanmineurmediavision.nl">info@jeanmineurmediavision.nl</a>
         </li>
         <li>
-          <button type="button">Routebeschrijving</button>
+					<a href="https://www.google.com/maps?ll=52.327631,4.882123&z=16&t=m&hl=nl&gl=NL&mapclient=embed&daddr=Van+Heenvlietlaan+200+1083+CM+Amsterdam@52.32763079999999,4.8821226">Routebeschrijving</a>
         </li>
       </ul>
-    </section>
+    </div>
     <section>
-      <h1>Binnen 24 uur antwoord op uw vraag</h1>
+      <h2>Binnen 24 uur antwoord op uw vraag</h2>
       <form>
-        <input type="text" id="fname" name="fname" placeholder="Naam">
-        <input type="text" id="lname" name="lname" placeholder="Bedrijf">
-        <input type="text" id="fname" name="fname" placeholder="E-mailadres">
-        <input type="text" id="lname" name="lname" placeholder="Telefoonnummer">
-        <select name="specifieke persoon" id="person" form="personform">
+        <input type="text" placeholder="Naam">
+        <input type="text" placeholder="Bedrijf">
+        <input type="text" placeholder="E-mailadres">
+        <input type="text" placeholder="Telefoonnummer">
+        <select name="specifieke persoon">
           <option value="specifieke persoon">Specifieke persoon</option>
           <option value="brenda kok">Brenda Kok</option>
           <option value="corine twisk">Corine Twisk</option>
@@ -105,86 +108,91 @@
           <option value="olga jansen">Olga Jansen</option>
           <option value="tako boelens">Tako Boelens</option>
         </select>
-        <input type="submit" value="verzend">
+				<input type="text" placeholder="Uw bericht">
+        <button type="button">verzend</button>
       </form>
     </section>
-
   </main>
 
-  <footer>
-    <section>
-			<h1>Blijf op de hoogte van onze nieuwsbrief</h1>
-			<form class="">
-				<input type="email" name="email" placeholder="E-mailadres">
-				<input type="submit" name="" value="">
+	<footer>
+		<!-- first section footer (input mail) -->
+		<section>
+			<h2>Blijf op de hoogte van onze nieuwsbrief</h2>
+			<form>
+				<input type="email" placeholder="E-mailadres">
+				<button type="button"></button>
 			</form>
 		</section>
+			<!-- second section footer (clickable info) -->
 		<section>
-			<h1>Meer info</h1>
+			<h3>Meer info</h3>
 			<ul>
 				<li>
-					<a href="#">Home</a>
+					<a href="https://www.jeanmineurmediavision.nl/">Home</a>
 				</li>
 				<li>
-					<a href="#">About</a>
+					<a href="https://www.jeanmineurmediavision.nl/about/waarom-bioscoop/">About</a>
 				</li>
 				<li>
-					<a href="#">Planning & Buying</a>
+					<a href="https://www.jeanmineurmediavision.nl/producten/">Planning & Buying</a>
 				</li>
 				<li>
-					<a href="#">Cases</a>
+					<a href="https://www.jeanmineurmediavision.nl/cases/">Cases</a>
 				</li>
 				<li>
-					<a href="#">Contact</a>
+					<a href="https://www.jeanmineurmediavision.nl/contact/">Contact</a>
 				</li>
 			</ul>
 		</section>
+		<!-- third section footer (clickable info) -->
 		<section>
-			<h1>Producten</h1>
-			<a href="#">Producten</a>
+			<h3>Producten</h3>
+			<a href="https://www.jeanmineurmediavision.nl/producten/">Producten</a>
 		</section>
+		<!-- fourth section footer (clickable info) -->
 		<section>
-			<h1>Contact</h1>
+			<h3>Contact</h3>
+				<ul>
+					<li>
+						<p>Meer weten? Bel of email ons.</p>
+					</li>
+					<li>
+						<a href="mailto:info@jeanmineurmediavision.nl">info@jeanmineurmediavision.nl</a>
+					</li>
+					<li>
+						<a href="tel:+310205022388">+31 (0)20 502 23 88</a>
+					</li>
+				</ul>
+		</section>
+		<!-- fith section footer (clickable info) -->
+		<section>
+			<h3>Adres</h3>
 			<ul>
 				<li>
-					Meer weten? Bel of email ons.
+					<p>Jean Mineur Mediavision</p>
 				</li>
 				<li>
-					<a href="mailto:info@jeanmineurmediavision.nl">info@jeanmineurmediavision.nl</a>
+					<p>Van Heenvlietlaan 200-B</p>
 				</li>
 				<li>
-					<a href="tel:+31 020 502 23 88">+31 (0)20 502 23 88</a>
+					<p>1083 CM Amsterdam</p>
 				</li>
 			</ul>
 		</section>
-		<section>
-			<h1>Adres</h1>
+		<!-- first div footer (copyright) -->
+		<div>
+			<img src="images/jeanmineur-pop.png" alt="Jeanmineur poppetje">
+			<p>© 2018 Jean Mineur Mediavision. Rechten voorbehouden.</p>
 			<ul>
 				<li>
-					Jean Mineur Mediavision
+					<a href="https://www.stichtingbio.nl/"><img src="images/bio-footer.png" alt="Reclame afbeelding + link naar website Stichtingbio"></a>
 				</li>
 				<li>
-					Van Heenvlietlaan 200-B
-				</li>
-				<li>
-					1083 CM Amsterdam
+					<a href="https://www.sawa.com/"><img src="images/sawa-footer.png" alt="Reclame afbeelding + link naar website Sawa"></a>
 				</li>
 			</ul>
-		</section>
-		<section>
-			<img src="" alt="">
-			<p>© 2018 Jean Mineur Mediavision. <span>Rechten voorbehouden.</span></p>
-			<ul>
-				<li>
-					<a href="#"> <img src="" alt=""> </a>
-				</li>
-				<li>
-					<a href="#"> <img src="" alt=""> </a>
-				</li>
-			</ul>
-		</section>
-
-  </footer>
+		</div>
+	</footer>
 
 </body>
 

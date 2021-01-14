@@ -6,7 +6,6 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-
 https://www.w3schools.com/css/css_form.asp
 
 https://www.w3schools.com/html/html_entities.asp
@@ -29,7 +28,15 @@ https://stackoverflow.com/questions/23750346/how-to-resize-unicode-characters-vi
 
 https://graphemica.com/%E2%9D%8C
 
-En nog veel meer.....
+w3schools.com/tags/tag_li.asp
+
+https://stackoverflow.com/questions/3331353/transitions-on-the-css-display-property
+
+https://stackoverflow.com/questions/24500222/using-display-with-css3-animations-how-to-hide-unhide-elements-during-after-ani
+
+https://stackoverflow.com/questions/3331353/transitions-on-the-css-display-property
+
+https://www.toptal.com/designers/htmlarrows/symbols/
 
 
 
@@ -37,15 +44,36 @@ En nog veel meer.....
 
 Wat ik eigenlijk al een beetje in week 6 heb verteld. Ik vond het lastig om classes weg te werken omdat ik in de eerste week zo mijn html had opgebouwd. Het omschakelen heeft mij een paar dagen gekost. Dit omdat ik vaak in de war raakte of dat bepaalde elementen opnieuw gestyled moesten worden.
 
-In het eerste jaar vond ik het lastiger om informatie op te zoeken. Bij dit project merkte ik dat het wat makkelijker ging en snel kon opzoeken wat ik nodig had. Dit ook omdat ik de code wat meer begrijp. 
+In het eerste jaar vond ik het lastiger om informatie op te zoeken. Bij dit project merkte ik dat het wat makkelijker ging en snel kon opzoeken wat ik nodig had. Dit ook omdat ik de code wat meer begrijp.
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+<img src="images/Homepage Jeanmineur.png" width="375px">
+
+<img src="images/Menu balk.png" width="375px">
+
+<img src="images/Heading 2 met het laatste nieuws.png" width="375px">
+
+<img src="images/Reclame fotos's.png" width="375px">
+
+<img src="images/Top 10 lijst en video.png" width="375px">
+
+<img src="images/Rode afbeelding met heading.png" width="375px">
+
+<img src="images/Contact pagina.png" width="375px">
+
+<img src="images/Google maps contact.png" width="375px">
+
+<img src="images/Routebeschrijving contact.png" width="375px">
+
+<img src="images/Form op contact pagina.png" width="375px">
+
+<img src="images/Footer.png" width="375px">
+
+
 
 
 ## Verslag Screenreader (week 7)
-
 Na aanleiding van de opdracht om met een screenreader je code door te gaan heb ik de screenreader van mijn macbook aangezet. De screenreader werkt echter alleen op safari en niet op andere browsers. De screenreader gaat makkelijk door de pagina heen en leest alles op. Mijn macbook staat in het Nederlands dus krijg ik ook een Nederlandse screenreader. Hierdoor kan mijn screenreader Engelse (andere taal) woordjes niet op de juiste manier oplezen.
 
 
@@ -77,20 +105,19 @@ Ik vond het een beetje lastig om van start te gaan met frontend. Na een weekje g
 
 | Ashley Muts    | Dionysha           | student 3    | student 4        |
 | ---            | ---                | ---          | ---              |
-| background 
-  donkerder      | vraag over footer  |              |                  |
-|                |                    |              |                  |
+| background     | vraag over footer  |              |                  |
+| donkerde       |                    |              |                  |
 | ...            | ...                | ...          | ...              |
 
 ### Verslag van meeting
 
-Ik heb filter: brightness gebrobeerd. Hierdoor werd de hele afbeelding donkerder waaronder de tekst.
+Ik heb filter: brightness geprobeerd. Hierdoor werd de hele afbeelding donkerder waaronder de tekst.
 
 
 
 ## Breakdownschets (week 1)
 
-<img src="images/breakdownschets.png" width="375px" alt="breakdownschets van de home pagina">
+-uitwerken voor de 1e werkgroep - eind van de eerste week-
 
 
 
